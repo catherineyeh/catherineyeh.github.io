@@ -1,0 +1,54 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    font-family: Arial;
+}
+
+.header {
+    text-align: center;
+    padding: 32px;
+}
+
+.Rowpic {
+    display: -ms-flexbox; /* IE 10 */
+    display: flex;
+    -ms-flex-wrap: wrap; /* IE 10 */
+    flex-wrap: wrap;
+    padding: 0 4px;
+}
+
+.Rowpic{
+	display: flex;
+	flex-wrap: wrap;
+	padding: 0 4px;
+}
+
+.Columnpic{
+	flex: 50%;
+	padding: 0 4px;
+}
+.Columnpic img{
+	margin-top: 8px;
+	vertical-align: middle;
+}
+
+.btn {
+    border: none;
+    outline: none;
+    padding: 10px 16px;
+    background-color: #f1f1f1;
+    cursor: pointer;
+    font-size: 18px;
+}
+
+.btn:hover {
+    background-color: #ddd;
+}
+
+.btn.active {
+    background-color: #666;
+    color: white;
+}
